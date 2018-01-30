@@ -1,0 +1,150 @@
+/* This css file is included by being imported in index.js */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    width: 100%
+}
+
+h1 {
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    left: auto;
+    right: auto;
+    border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+td {
+    width: 130px;
+    text-align: right;
+}
+
+th {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+td:nth-child(1) {
+    text-align: center
+}
+#result {
+    position: relative;
+    left: 12%;
+}
+#resultHeading {
+    display: inline-block;
+}
+#resultHeading span {
+    width: 100px;
+    border-top: 1px solid black;
+    display: inline-block;
+    float: left;
+    font-family: Helvetica;
+    font-size: 12px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+#resultTable span {
+    width: 100px;
+    display: inline-flex;
+    height: 20px;
+    vertical-align: middle;
+}
+#resultTable span {
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+#result div span.name {
+    text-align: center;
+    width: 80px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#result div span.bestBid {
+    width: 60px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#result span.bestAsk {
+    width: 60px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#result span.lastChangeAsk {
+    width: 105px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#result span.lastChangeBid {
+    width: 112px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#result span.sparkLine {
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+#result #resultHeading span.bestBid {
+    width: 63px;
+}
+#result #resultHeading span.bestAsk {
+    width: 63px;
+}
+#result #resultHeading span.lastChangeAsk {
+    width: 108px;
+}
+#result #resultHeading span.lastChangeBid {
+    width: 115px;
+}
+#result #resultHeading span.sparkLine {
+    width: 103px;
+}
+
+#result #resultTable span.bestBid {
+    padding-right: 3px;
+}
+#result #resultTable span.bestAsk {
+    padding-right: 3px;
+}
+#result #resultTable span.lastChangeAsk {
+    padding-right: 3px;
+}
+#result #resultTable span.lastChangeBid {
+    padding-right: 3px;
+}
+#result #resultTable span.sparkLine {
+    padding-right: 3px;
+}
+
+
+
+#resultTable span.sparkLine canvas {
+    position: relative;
+    top: -3px;
+}
